@@ -1,0 +1,3 @@
+cone ice cream 20---35
+cup ice cream 36---51
+stick ice cream 52---67
