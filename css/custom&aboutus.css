@@ -1,0 +1,105 @@
+.parallax {
+  /* The image used */
+  background-image: url("../images/banner_aboutus.jpg");
+
+  /* Set a specific height */
+  min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax_box1{
+	position:absolute;
+	width:100%;
+	top:60%;
+	transform:translate(0,-50%);
+	height:300px;
+	background:transparent;
+	color:white;
+	text-align:center;
+	border:none;
+}
+#headertxt_ourstory{
+	font-family:sansarif;
+	font-size:8vh;
+	font-weight:800;
+}
+#headertxt_creambella{
+	font-family:script MT bold;
+	font-size:5vh;
+	font-weight:600;
+}
+#parallax_backcolor{
+-webkit-box-shadow: inset 0px 0px 93px 49px rgba(253,205,177,1);
+-moz-box-shadow: inset 0px 0px 93px 49px rgba(253,205,177,1);
+box-shadow: inset 0px 0px 93px 49px rgba(253,205,177,1);
+
+
+}
+
+.parallax_box2{
+	position:relative;
+	width:100%;
+	border:none;
+}
+.about_img{
+	position:relative;
+	border:none;
+	top:52%;
+	transform:translate(0,-50%);
+}
+.Brief_txt{
+	margin-top:30px;
+	font-family:script MT bold;
+	font-weight:600;
+	font-size:5vh;
+
+}
+.headerimg2{
+  background-image: url("../images/about-vission-mission.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+
+.headerimg2_txt{
+	position:absolute;
+	top:0%;
+	transform:translate(0,-150%);
+	height:200px;
+	background:transparent;
+	color:white;
+	font-family:script MT bold;
+	font-weight:600;
+	font-size:3.5vh;
+	border:none;
+}
+#headerimg2_txt{
+	position:relative;
+	top:20px;
+	font-size:2vh;
+}
+
+.rewards_txt{
+	margin-top:20px;
+	margin-bottom:20px;
+	font-family:scriptMT bold;
+	font-weight:600;
+	font-size:3.5vh;
+	text-align:center;
+}
+.FORAY_txt{
+	margin-top:20px;
+	font-family:scriptMT bold;
+	font-weight:600;
+	font-size:5vh;
+	text-align:center;
+}

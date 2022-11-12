@@ -1,0 +1,88 @@
+#Shopping_txt{
+	margin-top:20px;
+	font-size:2.5vh;
+	font-family:arial;
+	font-weight:400;
+}
+
+.Chocolate_cart{
+	position:relative;
+	width:100%;
+
+	font-family:arial;
+	font-size:2.2vh;
+	font-weight:600;
+	border:none;
+}
+#icename_txt{
+	text-decoration:none;
+	color:#b73600;
+}
+#icename_txt:hover{
+	text-decoration:none;
+	color:black;
+}
+.cart_img{
+	position:relative;
+	top:20%;
+	transform:translate(0,-20%);
+
+}
+.stock_txt{
+	font-size:1.8vh;
+	color:green;
+}
+.Eligible_txt{
+	font-size:1.5vh;
+	margin-top:-10px;
+}
+#delete_save{
+	font-size:1.5vh;
+	text-decoration:none;
+	color:#b73600;
+}
+#delete_save :hover{
+	text-decoration:none;
+
+}
+#field2{
+	margin-top:3px;
+}
+#prevv{
+	width:20px;
+	border-radius:10px;
+	border:none;
+	outline:none;
+	background:#b73600;
+}
+#field{
+	
+	border-radius:20px;
+	box-shadow:;
+	outline:none;
+	text-align:center;
+	background:#f6e0d7;
+	}
+#nextt{
+	width:20px;
+	border-radius:10px;
+	outline:none;
+	border:none;
+	background:#b73600;
+}
+.securelogo_box{
+	text-align:center;
+	border:none;
+}
+.purchase_box{
+	text-align:center;
+	font-size:1.8vh;
+	border:none;
+}
+.green_txt{
+	color:green;
+}
+.total_txt{
+	font-size:2.5vh;
+	font-weight:600;
+}

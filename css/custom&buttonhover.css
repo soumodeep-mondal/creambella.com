@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.button_box{
+	display: inline-block;
+	position: relative;
+	background: none;
+	border:none;
+	color: #808;
+	left:50%;
+	transform:translate(-50%,0);
+	font-size: 25px;
+	font-family:arial;
+	cursor: pointer;
+	background: #f6e0d3;
+}
+.btn-hover_2{
+  display: block;
+  padding: 5px 70px;
+}
+.button_box::before, .button_box::after{
+  content:"";
+  width: 0;
+  height: 4px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #d69161;
+}
+
+.btn-hover_2::before, .btn-hover_2::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #d69161;
+}
+.button_box:hover::before, .button_box:hover::after{
+  width: 100%;
+}
+.button_box:hover span::before, .button_box:hover span::after{
+  height: 100%;
+}
+
+/*----- button 4 -----*/
+#btn-hover::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+#btn-hover span::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+#btn-hover::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+#btn-hover span::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+#viewmore{
+	
+	color:#7e2500;
+	text-decoration:none;
+}
+#viewmore:hover{
+	color:#d69161;
+	text-decoration:none;
+}

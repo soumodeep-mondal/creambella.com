@@ -1,0 +1,13 @@
+.cream_header_txt{
+	position:relative;
+	width:60%;
+	left:50%;
+	transform:translate(-50%,0);
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:3vh;
+	font-weight:bold;
+	letter-spacing:1.5px;
+	text-align:center;
+	border-bottom:5px double #7e2500;
+}

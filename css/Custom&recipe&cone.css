@@ -1,0 +1,14 @@
+.cone_txt{
+	font-size:18px;
+	background-color:#f6e0d3;
+	text-align:center;
+	padding:5px;
+	border-radius:10px;
+}
+.photos{
+color:#7e2500;
+text-decoration:none;
+}
+.photos:hover{
+text-decoration:none;
+}

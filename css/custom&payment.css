@@ -1,0 +1,246 @@
+
+#payborder{
+ border:1px solid #ddd;	
+ border-radius:10px;
+}
+#payment_method_txt{
+	margin-top:2%;
+	font-family:arial;
+	font-size:3.5vh;
+}
+.Another_payment_txt{
+	margin-top:2%;
+	font-size:2.2vh;
+	font-family:arial;
+	font-weight:600;
+}
+
+.mine input[type="radio"] {
+  display:none;
+}
+.mine input[type="radio"] + div{
+  display:inline-block;
+  position: relative;
+  margin-left:15px;
+
+}
+.mine input[type="radio"] + div:before{
+  content:'';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #F5F5F6;
+  left: -20px;
+  top: 3px;
+  border: 1px solid #C9CACB;
+}
+.mine input[type="radio"] + div:before {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+.mine input[type="radio"]:checked + div:after{
+  content:'';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #F47839;
+  left: -17px;
+  top: 6px;
+  border: 1px solid #C9CACB;
+}
+.mine input[type="radio"]:checked + div:after {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
+}
+.Pay_box{
+	position:relative;
+	width:100%;
+	
+	font-size:1.7vh;
+	font-family:arial;
+	font-weight:600;
+	border:none;
+	margin-bottom:5%;
+}
+.upi{
+	position:relative;
+	left:5%;
+	width:400px;
+	border:none;
+}
+.debit_box{
+	position:relative;
+
+	left:3%;
+	width:97%;
+	border:none;
+}
+#debit_box_img{
+	position:relative;
+	width:50%;
+	margin-bottom:2%;
+	border:none;
+}
+.txt_2{
+	font-family:arial;
+	font-size:1.5vh;
+}
+.cardadd_txt{
+	position:relative;
+	margin-top:-20px;
+	font-size:1.5vh;
+	border:none;
+}
+.month_year_box{
+	height:30px;
+
+}
+.addcard_btn{
+	position:relative;
+	margin-top:5px;
+	padding:5px;
+	border-radius:3px;
+	padding-left:10px;
+	padding-right:10px;
+	border:1px solid #7e2500;
+}
+/* Drop down Net Banking */
+
+
+.select-box {
+  display: flex;
+  width: 300px;
+
+  flex-direction: column;
+}
+
+.select-box .options-container {
+  background: #f6e0d3	;
+  color: #7e2500;
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.4s;
+  border-radius: 8px;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.selected {
+  background: #7e2500;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: white;
+  position: relative;
+
+  order: 0;
+}
+
+.selected::after {
+  content: "";
+  background: url("../images/arrow-down.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  height: 100%;
+  width: 32px;
+  right: 10px;
+  top: 5px;
+
+  transition: all 0.4s;
+}
+
+.select-box .options-container.active {
+  max-height: 240px;
+
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.select-box .options-container.active + .selected::after {
+  transform: rotateX(180deg);
+  top: -6px;
+}
+
+.select-box .options-container::-webkit-scrollbar {
+  width: 8px;
+  background: #7e2500;
+  border-radius: 0 8px 8px 0;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 0 8px 8px 0;
+}
+
+.select-box .option,
+.selected {
+  padding: 10px 15px;
+
+  cursor: pointer;
+}
+
+.select-box .option:hover {
+  background: #7e2500;
+  color:white;
+}
+
+.select-box label {
+  cursor: pointer;
+}
+
+.select-box .option .radio {
+  display: none;
+}
+
+/* Drop down Net Banking  END*/
+
+.Vouchers_txt{
+	font-family:arial;
+	font-size:2vh;
+	font-weight:600;
+}
+.Pay_btn{
+	text-align:center;
+	border-radius:10px;
+	border:1px solid #ddd;
+	background:#f6e0d3;
+}
+#payhbtn{
+	position:relative;
+	margin-top:5%;
+	width:80%;
+	color:white;
+	font-family:arial;
+
+	background:#7e2500;
+}
+#payhbtn:hover{
+	background:#b73600;
+}
+.continue_txt{
+	font-family:arial;
+	font-size:1.8vh;
+}
+.input_box{
+	position:relative;
+	width:200px;
+	height:30px;
+	border:1px solid black;
+	outline:none;
+}
+
+.code_btn{
+	position:relative;
+	border-radius:3px;
+	padding-left:10px;
+	padding-right:10px;
+	height:30px;
+	border:1px solid #7e2500;
+}
