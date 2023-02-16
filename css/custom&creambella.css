@@ -1,0 +1,780 @@
+
+ /* Navbar Search  Text Fild */
+
+input[type=text] {
+  width: 150%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 6px 10px 12px 40px;
+}
+#searchbtn{
+	background-color:#7e2500;
+	color:#f6e0d3;
+	font-weight:400;
+
+}
+#searchbtn:hover{
+	background-color:#b73600;
+	color:#f6e0d3;
+	
+}
+ /*   END   */
+ 
+/* nav bar button */
+
+
+#navbtn{
+	background-color:none;
+	color:#7e2500;
+	font-size:18px;
+	cursor:pointer;
+}
+#navbtn:hover{
+	color:black;
+}
+.nav-item {
+
+    padding-left: 15px;
+
+}
+
+ /*   END   */
+
+ 
+ 
+/* Header Animation 1 */
+
+.Wellcome{
+	position:absolute;
+	top:25%;
+	width:100%;
+	text-align:center;
+	font-family:Lemon;
+	font-size: 4vw;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	line-height: 1.03em;
+	border:none;
+}
+
+/*   END   */
+
+	/* Header Animation 2 */
+	
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.animated-title {
+	position:absolute;
+  color: #f6e0d3;
+  font-family: lemon;
+  height: 80%;
+  width:90%;
+  left:50%;
+  top:55%;
+  letter-spacing: 0.05em;
+  transform: translate(-50%, -50%);
+
+ 
+}
+
+.animated-title > div {
+  height: 35%;
+  overflow: hidden;
+  position: absolute;
+  text-align:middle;
+  width: 100%;
+  font-weight: 900;
+  font-size: 1.5em;
+	font-family: lemon;
+  border-radius:5px;
+  
+
+}
+.animated-title > div div {
+  font-size: 0.9em;
+  font-family:arial;
+  width:100%;
+  height:100%;
+  top:15%;
+  transform:translate:(0%, -50%);
+  position: absolute;
+
+
+  
+}
+.animated-title > div div span {
+  display: block;
+  top:20%;
+  color: transparent;
+  font-family: arial;
+  font-size: 4vw;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.03em;
+
+  text-align:center;
+
+}
+.animated-title > div div span2 {
+  display: block;
+  font-family: Lemon;
+  font-size: 5vw;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+  text-align:center;
+
+}
+.animated-title > div.text-top {
+  border-bottom:none;
+  height:45%;
+  top: 0;
+
+   
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #f6e0d3;
+  
+}
+.animated-title > div.text-bottom {
+	position:absolute;
+  bottom: 5%;
+
+
+
+  
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  font-size: 30px;
+  top: 10%;
+  left:%;
+  text-align:center;
+  transform: translate(0%, -100%);
+
+}
+/*   END   */
+#shopbtn{
+	text-decoration: :none;
+	color:#f6e0d3;
+}
+#shopbtn: hover{
+	text-decoration: :none;
+	color:#f6e0d3;
+}
+
+/* Header Animation 3 */
+
+.Weekend {
+  position: absolute;
+  top:15%;
+  left:50%;
+  transform:translate(-50%, 0%);
+  height: 0.90em;
+  color: transparent;
+  font-family: arial;
+  font-size: 4vw;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.03em;
+  text-align:center;
+  border:none;
+}
+
+.Weekend > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #f6e0d3;
+  pointer-events: none;
+  border:none;
+}
+
+.Weekend > div:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+  animation: deconstructed1 6s infinite;
+}
+
+.Weekend > div:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  animation: deconstructed2 6s infinite;
+}
+
+.Weekend > div:nth-child(3) {
+   -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  animation: deconstructed3 6s infinite;
+}
+
+.Weekend > div:nth-child(4) {
+   -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+  animation: deconstructed4 6s infinite;
+}
+.Chocolate{
+  position: absolute;
+  width:100%;
+  top:30%;
+  height: 1.1em;
+  color: transparent;
+  font-family: lemon;
+  font-size: 5vw;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.03em;
+  text-align:center;
+  border:none;
+}
+
+.Chocolate > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #f6e0d3;
+  pointer-events: none;
+  border:none;
+}
+
+.Chocolate > div:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+  animation: deconstructed1 6s infinite;
+}
+
+.Chocolate > div:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  animation: deconstructed2 6s infinite;
+}
+
+.Chocolate > div:nth-child(3) {
+   -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  animation: deconstructed3 6s infinite;
+}
+
+.Chocolate > div:nth-child(4) {
+   -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+  animation: deconstructed4 6s infinite;
+}
+@keyframes deconstructed1 {
+  0% {
+    transform: translateX(100%);
+  }
+  26% {
+    transform: translateX(0%);
+  }
+  83% {
+    transform: translateX(-0.1%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+@keyframes deconstructed2 {
+  0% {
+    transform: translateX(100%);
+  }
+  24% {
+    transform: translateX(0%);
+  }
+  82% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-125%);
+  }
+}
+
+@keyframes deconstructed3 {
+  0% {
+    transform: translateX(100%);
+  }
+  22% {
+    transform: translateX(0%);
+  }
+  81% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-130%);
+  }
+}
+
+@keyframes deconstructed4 {
+  0% {
+    transform: translateX(100%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-135%);
+  }
+}
+/*   END   */
+
+/* Header 1 amimation text &&& Shop Button Header 3*/
+
+.shop{
+	position:absolute;
+	top:60%;
+	width:100%;
+	text-align:center;
+	font-size: 20px;
+	border:none;
+	background-color:none;
+
+}
+
+.ml6 {
+  position: relative;
+  width:100%;
+  left:50%;
+  transform:translate(-50%, 0%);
+  color:#f6e0d3;
+  font-weight: 900;
+  font-size: 1.5em;
+  border-radius:5px;
+  
+  
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+  color:#f6e0d3;
+}
+/*   END   */
+
+/* Header 2nd bar amimation text 1 */
+
+.shortbar{
+	position:relative;
+	top:100%;
+	width:100%;
+	height:100%;
+	background-color:#f6e0d3;
+	border:none;
+	font-family:arial;
+	padding:10px;
+	font-size:1.5vh;
+	letter-spacing: 0.10em;
+	text-align:center;
+	color:#7e2500;
+
+}
+.header{
+	position:relative;
+	width:100%;
+	height:100%;
+	border:1px solid black;
+}
+#knowmore{
+	color:blue;
+	text-decoration:none;
+}
+#knowmore:hover{
+	color:black;
+	text-decoration:none;
+}
+
+.newuser{
+	position:absolute;
+	top:25%;
+	left:2%;
+	height:60%;
+	width:52.70%;
+	font-family: arial;
+	letter-spacing: -0.02em;
+	line-height: 1.03em;
+	border:none;
+	background-color:none;
+
+	
+}
+
+.SHOP{
+	position:absolute;
+	left:0%;
+	width:22%;
+	top:65%;
+	font-size:2vw;
+	text-align:center;
+	border-radius:5px;
+	background-color:#f6e0d3;
+	color:#7e2500;
+	
+}
+.ml14 {
+	
+  font-weight: 700;
+  font-size: 3vw;
+  border:none;
+  color:#f6e0d3;
+  text-align:left;
+}
+
+.ml14 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml14 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: none;
+  transform-origin: 100% 100%;
+  bottom: 0;
+  border:none;
+}
+
+.ml14 .letter {
+  display: inline-block;
+  line-height: 1em;
+  border:none;
+}
+
+/*   END   */
+
+
+/* Header 2nd bar amimation text 2 */
+.line-1{
+	position:absolute;
+	top: 62%; 
+	left:55%;
+	height:auto;
+	width:52.70%;
+	font-family: arial;
+	letter-spacing: -0.02em;
+	line-height: 1.03em;
+	font-weight: 700;
+	font-size: 3.5vw;
+	color:#7e2500;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+/* END 8*/
+
+/* 1st carousel down ice image Bar start       */
+.banner1_box{
+	position:relative;
+	left:50%;
+	transform:translate(-50%,0);
+	width:270px;
+	height:500px;
+	margin-top:25px;
+
+}
+.banner1_txt_box{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:5%;
+	border:none;
+}
+.banner2_box{
+	position:relative;
+	margin-top:25px;
+	width:350px;
+	height:235px;
+	left:50%;
+	transform:translate(-50%,0);
+}
+.banner2_txt_box{
+	position:absolute;
+	left:5%;
+	width:60%;
+	top:20%;
+	border:none;
+}
+.banner3_box{
+	position:relative;
+	margin-top:30px;
+	width:350px;
+	height:235px;
+	left:50%;
+	transform:translate(-50%,0);
+}
+.banner3_txt_box{
+	position:absolute;
+	right:0px;
+	width:55%;
+	top:20%;
+	border:none;
+}
+.banner4_box{
+	position:relative;
+	width:450px;
+	height:500px;
+	margin-top:25px;
+			left:50%;
+	transform:translate(-50%,0);
+	
+}
+.banner4_txt_box{
+	position:absolute;
+	text-align:center;
+	width:100%;
+	top:5%;
+	border:none;
+}
+#banner_shop{
+	width:50%;
+	text-align:center;
+	font-size:2vh;
+	font-weight:600;
+	padding:5px;
+	border-radius:5px;
+	background-color:#7e2500;
+}
+#banner_shop:hover{
+	background-color:#b73600;
+}
+#banner4_shop{
+	position:relative;
+	width:30%;
+	left:50%;
+	transform:translate(-50%,0);
+	text-align:center;
+	font-size:2vh;
+	font-weight:600;
+	padding:5px;
+	border-radius:5px;
+	background-color:#7e2500;
+}
+#banner4_shop:hover{
+	background-color:#b73600;
+}
+
+#a_shop{
+	
+	text-decoration:none;
+	color:white;
+}
+#a_shop:hover{
+	text-decoration:none;
+
+}
+#bannner_font1{
+	font-family:SCRIPTBL;
+	font-size:2.5vh;
+}
+#bannner_font2{
+	font-family:arial;
+	font-weight:600;
+	font-size:3vh;
+	
+}
+/* 1st carousel down ice image Bar End       */
+ 
+
+
+
+ 
+
+
+  /* start  products icon*/
+
+	.icon ul{
+	padding:0px;
+	margin:0px;
+	}
+	.icon ul li{
+	display:inline-block;
+	list-style:none;
+	top:10px;
+	width:80px;
+	height:70px;
+	border:none;
+	left:50%;
+	transform:translate(-50%,0%);
+	position:relative;
+	cursor:pointer;
+	overflow:hidden;
+	
+	}
+	
+	
+	.icon ul li .icon1{
+	color:green;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	transition:0.4s;
+	}
+	
+	
+	
+	.icon ul li .icon2{
+	color:blue;
+	
+	position:absolute;
+	top:100%;
+	left:50%;
+	transform:translate(-50%,0%);
+	transition:0.4s;
+	}
+	
+	
+	.icon ul li:hover .icon1{
+	top:-100%;
+	transform:translate(-50%,0%);
+	}
+	
+	
+	.icon ul li:hover .icon2{
+	top:50%;
+	transform:translate(-50%,-50%);
+	}
+	
+
+
+	.free_delivery_main{
+		
+		width:100%;
+		height:100%;
+		color: #7e2500;
+		border:none;
+	}
+	.free_delivery_txt{
+		position:relative;
+		margin:0px;
+		padding-top:-10px;
+		border:none;	
+		font-size:16px;
+		 font-weight: bold;
+	}
+	#free_delivery_txt2{
+		font-size:14px;
+		letter-spacing:0.50px;
+		color: #7e2500;
+	}
+	
+	#Special_txt{
+	left:5px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:28px;
+	
+}
+  /* END   */
+  
+  
+/* save header start */
+
+.text_box{
+	position:absolute;
+	top:15%;
+	left:40%;
+	width:60%;
+	height:70%;
+	font-family:playball;
+	color:red;
+	font-size:4vh;
+	border:none;
+	
+}
+#save_header{
+	margin-top:20px;
+}
+#text_border{
+	font-family:arial;
+	font-weight:bold;
+	font-size:3vh;
+	color:black;
+}
+
+#shop_Now{
+	top:50%;
+	padding:10px;
+	width:40%;
+	border-radius:5px;
+	text-align:center;
+	background-color:#7e2500;
+	font-size:2vh;
+	color:white;
+}
+#shop_Now:hover{
+	
+	background-color:#b73600;
+}
+.decoration_none{
+	text-decoration:none;
+}
+.decoration_none:hover{
+	text-decoration:none;
+}
+/* save header End */
+
+#Copyright_SoumodeepMondal_txt{
+	color:#7e2500;
+}
+
+

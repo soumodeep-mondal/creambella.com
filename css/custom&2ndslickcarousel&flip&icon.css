@@ -1,0 +1,225 @@
+/*  slick carousel */
+
+
+.wrapper_box{
+	position:relative;
+	width:100%;
+	height:470px;
+	border:none;
+}
+#Special_txt{
+	
+	position:relative;
+	left:10px;
+	font-family:arial;
+	font-size:28px;
+	color: #7e2500;
+	letter-spacing:1.5px;
+}
+.slickcarousel{
+  width:100%;
+  margin:0px auto;
+  border:none;
+}
+.slick-items{
+	margin:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:21px;
+	color:#7e2500;
+}
+.slick-items:hover{
+color:#d69161;
+}
+.slick-items img{
+	position:relative;
+	width:100%;
+	height:100%;
+	text-align:center;
+	border:none;
+}
+
+.slickcarousel_box .prev_arrow{
+	position:absolute;
+	top:-10%;
+	width:40px;
+	height:40px;
+	background-color:#f6e0d3;
+	border-radius:50%;
+	text-align:center;
+	right:50px;
+	display:inline-block;
+	line-height:40px;
+	font-size:20px;
+	color:#7e2500;
+	cursor:pointer;
+	border:none;
+}
+.slickcarousel_box .next_arrow{
+	position:absolute;
+	top:-10%;
+	right:8px;
+	width:40px;
+	height:40px;
+	background-color:#f6e0d3;
+	border-radius:50%;
+	display:inline-block;
+	line-height:40px ;
+	text-align:center;
+	font-size:20px;
+	color:#7e2500;
+	cursor:pointer;
+	border:none;
+}
+.slickcarousel_box .prev_arrow:hover{
+color:#f6e0d3;
+background-color:#7e2500;
+}
+.slickcarousel_box .next_arrow:hover{
+color:#f6e0d3;
+background-color:#7e2500;
+}
+
+/* ENd /*
+
+
+/* Flip icecream_bar*/
+.main_box{
+	position:relative;
+	top:0%;
+	height:410px;
+	width:100%;
+	border:none;
+	
+}
+.flip-card{
+	position:absolute;
+	top:0%;
+	height:75%;
+	width:100%;
+	left:0%;
+	perspective: 1000px;
+	border:none;
+	background-color: transparent;
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height:100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border:none;
+
+}
+
+.flip_box_font,.flip_box_back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.flip_box_font{
+	color: black;
+}
+.flip_box_back{
+
+	transform: rotateY(180deg);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+/* ice cream icon*/
+
+
+section{
+	top:30%;
+	right:5px;
+
+}
+.s4{
+	position:absolute;
+	width:50px;
+	height:100%;
+	background: none;
+}
+.iconbtn{
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
+  margin: 2px;
+  position: relative;
+  font-size: 17.5px;
+  border-radius: 50%;
+}
+.iconbtn::before{
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.iconbtn::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+
+
+
+.s4 .iconbtn{
+  border: 0px solid #7e2500;
+  color: black;
+}
+.s4 .iconbtn::after{
+  background: #f6e0d3;
+  transition: 0.4s;
+}
+.s4 .iconbtn:hover::after{
+  transform: scale(1.5);
+  opacity: 0;
+}
+.s4 .iconbtn:hover{
+  color: #f6e0d3;
+  background:black;
+}
+.icon_size{
+	font-size:15px;
+	border:none;
+}
+.checked {
+color: orange;
+}
+.unchecked{
+	color:gray;
+}
+
+.ice_name{
+		position:absolute;
+		width:100%;
+		font-size:20px;
+		font-family:arial;
+		color:black;
+		border:1px dotted red;
+		
+		}
+.ice_name:hover{
+		color:#7e2500;
+		}
+#ruppe_txt{
+			font-family:arial;
+			font-size:20px;
+			font-weight:bold;
+		}

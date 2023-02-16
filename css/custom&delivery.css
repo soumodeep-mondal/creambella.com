@@ -1,0 +1,102 @@
+#CONTACTLESS_txt{
+	margin-top:20px;
+	font-family:script MT bold;
+	font-size:2vh;
+	font-weight:600;
+	text-align:center;
+	color:gray;
+}
+#Helping_txt{
+	font-family:script MT bold;
+	font-size:4vh;
+	font-weight:600;
+	text-align:center;
+}
+#Given_txt{
+	text-align:center;
+	font-size:1.8vh;
+}
+.contactless_iconbox{
+	position:relative;
+	width:100%;
+	height:200px;
+	margin-top:20px;
+	border:1px solid #dbd8d8;
+	border-radius:10px;
+}
+.contactless_iconbox:hover{
+	background-color:#f6e0d3;
+	border:1px solid #f6e0d3;
+}
+.iconbox1{
+	position:relative;
+	left:10px;
+	top:5px;
+	width:50px;
+	height:50px;
+	border:none;
+}
+#contactlessbox_txt1{
+	margin-top:10px;
+	margin-left:10px;
+	font-family:script;
+	font-size:2.5vh;
+	font-weight:600;
+}
+#short_paragrap{
+	position:relative;
+	width:90%;
+	left:10px;
+}
+
+#HOW_IT_WORKStxt{
+	margin-top:50px;
+	font-family:script MT bold;
+	font-size:2vh;
+	font-weight:600;
+	text-align:center;
+	color:gray;
+}
+.step1_delivery_img{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.step_delivery_txt{
+	margin-top:100px;
+	font-family:script;
+	font-weight:600;
+	font-size:2.5vh;
+	border:none;
+}
+#Your_favourite_txt{
+	font-size:2.5vh;
+	font-family:script;
+	font-weight:600;
+	text-align:center;
+	color:gray;
+}
+.Get_started_btn{
+	position:relative;
+	width:200px;
+	left:50%;
+	transform:translate(-50%,0);
+	font-family:arial;
+	font-weight:600;
+	font-size:2vh;
+	text-align:center;
+	background-color:#7e2500;
+	padding:10px;
+	border-radius:10px;
+	
+}
+.Get_started_btn:hover{
+	background-color:#b73600;
+}
+.started{
+	text-decoration:none;
+	color:white;
+}
+.started:hover{
+	text-decoration:none;
+	color:white;
+}

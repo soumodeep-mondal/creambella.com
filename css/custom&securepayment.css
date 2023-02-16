@@ -1,0 +1,168 @@
+.img-container{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.inner-container{
+	position:absolute;
+	top:25%;
+	left:10%;
+	width:80%;
+	color:#7e2800;
+	border:none;
+}
+.headertxt{
+	font-size:2vw;
+}
+.headertxt2{
+	font-size:5vw;
+}
+#secureheader_txt{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-15%, -50%);
+  font-size:1.7vw;
+  color:blue;
+}
+#secureheader_txt2{
+	font-family:arial;
+	font-weight:bold;
+	font-size:4vw;
+	color:#7e2800;
+} 
+
+/* icon up down  */
+
+
+   
+   
+  /* start  */
+
+	.iconpay	ul{
+	padding:0px;
+	margin:0px;
+	}
+	.iconpay ul li{
+	display:inline-block;
+	list-style:none;
+	top:10px;
+	width:180px;
+	height:160px;
+	border:none;
+	left:50%;
+	transform:translate(-50%,0%);
+	position:relative;
+	cursor:pointer;
+	overflow:hidden;
+	
+	}
+	
+	
+	.iconpay ul li .icon5{
+	color:green;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	transition:0.4s;
+	}
+	
+	
+	
+	.iconpay ul li .icon6{
+	color:blue;
+	position:absolute;
+	top:100%;
+	left:50%;
+	transform:translate(-50%,0%);
+	transition:0.4s;
+	}
+	
+	
+	.iconpay ul li:hover .icon5{
+	top:-100%;
+	transform:translate(-50%,0%);
+	}
+	
+	
+	.iconpay ul li:hover .icon6{
+	top:50%;
+	transform:translate(-50%,-50%);
+	}
+	
+	.secure_icon{
+		
+		width:100%;
+		height:100%;
+		border:none;
+	}
+	.secure_icon:hover{
+		background-color:#f6e0d3;
+	}
+	.secure_icontxt{
+		position:relative;
+		margin:0px;
+		padding-top:10px;
+		border:none;	
+		font-size:2.1vh;
+		font-family:arial;
+		font-weight: bold;
+		color:#7e2500;
+	}
+	#secure_icontxt2{
+		font-family:arial;
+		font-size:1.8vh;
+		color:gray;
+		text-align:center;
+	}
+  /* END   */
+  #backcolor{
+-webkit-box-shadow: inset 0px 0px 93px 49px rgba(253,205,177,1);
+-moz-box-shadow: inset 0px 0px 93px 49px rgba(253,205,177,1);
+box-shadow: inset 0px 0px 93px 49px rgba(253,205,177,1);
+  }
+ .Payment_Platform{
+	 margin-top:10px;
+	 font-family:arial;
+	 font-size:31px;
+	 color:#7e2500;
+	 font-weight:bold;
+	 
+ }
+ .Platform_txt{
+	 margin-top:10px;
+	 margin-bottom:40px;
+	 font-family:arial;
+	 font-size:1.8vh;
+	 color:gray;
+ }
+ .freepay{
+	 position:relative;
+	 left:5%;
+	 font-family:arial;
+	 font-weight:bold;
+	 font-size:21px;
+ }
+ 
+ .Benefits_txt{
+	 font-family:arial;
+	 font-size:1.8vh;
+	 color:gray;
+	 margin-top:10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

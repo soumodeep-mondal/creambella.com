@@ -1,0 +1,67 @@
+/* zoom image background */
+#bor{
+	
+	border:1px solid black;
+}
+#bor2{
+	
+	
+}
+.zoom_box_1stimg{
+	text-align:center;
+	height:500px;
+	border:1px dotted green;
+}
+.bgzoom-img1 {background-image: url(../images/banner1.jpg);} 
+.zoom_box_2stimg{
+	height:500px;
+	border:1px dotted red;
+}
+
+.zoom_box_3stimg{
+	text-align:center;
+	height:500px;
+	border:1px dotted blue;
+}
+.bgzoom-img4 {background-image: url(../images/banner4.jpg);} 
+
+
+
+.img_bground{
+	position:relative;
+	width:270px;
+	height:500px;
+
+	overflow: hidden;
+	display: inline-block;
+	border-radius:2%;
+	cursor: pointer;
+	border:1px dotted red;
+}
+.childzoom{
+	height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+}
+
+ .img_bground:hover .childzoom, .img_bground:focus .childzoom {
+    transform: scale(1.1);
+}
+.img_bground:hover .childzoom:before, .img_bground:focus .child:before {
+    display: block;
+}
+
+.childzoom:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: none;
+}
+ 
+ /* END   */
