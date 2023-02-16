@@ -1,0 +1,108 @@
+
+ 
+<!doctype html>
+<html>
+<head>
+	<title>Payment Successful</title>
+	<link href="images/logo2.png" rel="shortcut icon">
+<!-- All css File link -->
+	<link href="css/custom&lodingpage.css" rel="stylesheet">
+	<link href="css/custom&creambella.css" rel="stylesheet">
+	<link href="css/custom&buttonhover.css" rel="stylesheet">
+	<link href="css/custom&scroll&top.css" rel="stylesheet">
+	<link href="css/creambella&payment&sucessfull.css" rel="stylesheet">
+	
+
+	
+<!-- All css File link End-->	
+	
+	
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		
+
+</head>
+<body onload="myFunction()">
+	    <div class="preload" id="preload">
+        <div class="logo">
+        </div>
+        <div class="loader-frame">
+            <div class="loader1" id="loader1">
+            </div>
+            <div class="circle"></div>
+            <h1 class="hello"></h1>
+            <h5 class="wellcome">Processing payment...</h5>
+        </div>
+    </div>
+
+
+
+		<header class="payment_bg">
+			<div class="payment_bg_box">
+				<div class="green_box">
+					<svg viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
+					  <g stroke="currentColor" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+						<path class="circle" d="M13 1C6.372583 1 1 6.372583 1 13s5.372583 12 12 12 12-5.372583 12-12S19.627417 1 13 1z"/>
+						<path class="tick" d="M6.5 13.5L10 17 l8.808621-8.308621"/>
+					  </g>
+					</svg>
+					<div id="Successful">Payment Successful</div>
+					<p class="order_id">Order ID &nbsp; C2007167001</p>
+				</div>
+				
+				<div class="white_box">
+					<h5>Creambella Summary</h5>
+					<p><span id="Summary_txt">Order date</span><br>Thursday,March 26,2020 10:20:08AM PDT</p>
+					<P><span id="Summary_txt">Delivery</span><br>45 Minutes upto</P>
+					<p><span id="Summary_txt">Amount</span><br>₹ 1,671.00</p>
+					<p><span id="Summary_txt">Payment method</span><br>visa 4409</p>
+					<div id="Thank_You">Thank You</div>
+					 <a href="index.html" type="submit"class="btn " id="Summary_btn">Close</a>
+				</div>
+			</div>
+		</header>
+
+
+
+
+
+
+
+											
+											 <!-- SCRIPT START  -->
+	<script src="java/loader.js"></script>						
+	
+	
+	
+<!-- scroll to top add -->	                                                              
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="java/custom&scroll&top.js"></script>
+<!-- scroll to top End -->	
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+$('.add').click(function () {
+		if ($(this).prev().val() < 5) {
+    	$(this).prev().val(+$(this).prev().val() + 1);
+		}
+});
+$('.sub').click(function () {
+		if ($(this).next().val() > 1) {
+    	if ($(this).next().val() > 1) $(this).next().val(+$(this).next().val() - 1);
+		}
+});
+
+</script>
+</body>
+</html>
